@@ -26,12 +26,12 @@ const bool STOP_CONTACTO_NC = false;
 // 0 = usar el factor que guardo la calibracion de la celda
 const float HX_CUENTAS_POR_N = 0.0f;
 
-// Control automatico. Valores para banco (sin mano), fuerzas en N
-const float TENSION_OBJETIVO   = 5.0f;
+// Control automatico. Valores para pruebas tempranas de rutina, fuerzas en N
+const float TENSION_OBJETIVO   = 5.0f;    //Modificar para evaluar experiencia de usuario
 const float TOLERANCIA_TENSION = 0.25f;
-const float TENSION_MAX_SEGURA = 10.0f;
-const int   PWM_MINIMO = 20;
-const int   PWM_MAXIMO = 45;
+const float TENSION_MAX_SEGURA = 10.0f;   //Modificar para evaluar experiencia de usuario
+const int   PWM_MINIMO = 20;              //Modificar para evaluar experiencia de usuario
+const int   PWM_MAXIMO = 45;              //Modificar para evaluar experiencia de usuario
 const unsigned long TIEMPO_MAX_RECOGIDA = 10000;
 
 // Ajuste del lazo de tension
